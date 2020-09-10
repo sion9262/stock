@@ -1,0 +1,14 @@
+시계열 데이터 예측 정확도 측도
+
+MAPE, MASE 추천
+
+3. ARIMA vs 지수평활(ETS) 모형
+자기회귀누적이동평균(ARIMA, AutoRegressive Integrated Moving Average ) 모형과
+ETS(Error,Trend,Seasonal, ExponenTial Smoothing) 모형에 대해서 서로 적대적으로 생각하는 분들도 많다.
+박스-젠킨스가 제안한 ARIMA 모형이 매우 수학적인 반면에 ETS는 1950년대부터 실무적으로 개발되어 서로 동일한 목적으로 하고 있지만 많은 교류가 없어 보여 잘못 알려진 것도 많다.
+
+ARIMA 모형이 더 일반적이고 지수평활(exponential smoothing)모형은 적용범위가 한정되어 있다는 잘못된 미신이 존재한다.
+선형 지수평활 모형은 ARIMA 모형의 특수한 사례다.
+비선형 지수평활 모형에 대응되는 ARIMA 모형은 없다.
+많은 ARIMA 모형은 대응되는 지수평활모형이 없다.
+지수평활 모형은 정상성을 갖지 않는 모든 시계열 데이터를 모형화할 수 있다.
